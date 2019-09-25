@@ -1,0 +1,49 @@
+table{
+	margin: auto;
+	margin-top:5%;
+	width: 80%;
+}
+table, th, td, tr{
+	border: 2px solid red;
+	border-collapse: collapse;
+}
+th{
+	background-color: #94b8b8;
+}
+td{
+	text-align: center;
+}
+.minimo{
+	 white-space: nowrap;
+	 width: 1px;
+}
+#formu{
+	background-color: #94b8b8;
+	margin: auto;
+	width: 25%;
+	text-align:center;
+	padding: 2%;
+	border: 2px solid red;
+	border-collapse: collapse;
+}
+#vuelve{
+	width: 20%;
+	margin: auto;
+	text-align: center;
+}
+.botones{
+	width: 85%;
+	font-size: 1.5vw;
+	border-radius: 6px;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 4% 4%;
+	text-align: center;
+	text-decoration: none;
+	margin: 2% 2% 2% 2%;
+	cursor: pointer;
+}
+#texto{
+	width: 85%;
+}

@@ -1,0 +1,12 @@
+create database trabajo;
+
+create table notas(
+    id int not null,
+    nota varchar(255) not null,
+    favorita boolean not null,
+    primary key (id)
+);
+
+create user 'trabajo'@'localhost' identified by'1234';
+
+GRANT select, insert, update ON notas TO trabajo IDENTIFIED by '1234';
